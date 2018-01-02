@@ -1,14 +1,15 @@
-# Slack-dice
+# Slack Dice
 
 ## Description
-
-*TODO*
+Example application for slack slash commands (i.e. /roll 2d6 will "roll" two six-sided dice and return the result).
 
 ## Leiningen Tasks
 
 `lint`: Runs ancient, kitbit and eastwood tools
+
 `repl`: Starts an interactive REPL with the application loaded
-`marg`: Generates application documentation
+
+`doc`: Generates application documentation
 
 ## REPL
 ### Running the Development Server

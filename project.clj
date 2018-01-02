@@ -23,8 +23,7 @@
                  [metosin/compojure-api      "1.1.11"]
                  [org.clojure/clojure        "1.9.0"]
                  [org.clojure/core.async     "0.3.465"]
-                 [org.clojure/data.json      "0.2.6"]
-                 [ring/ring-devel            "1.6.3"]]
+                 [org.clojure/data.json      "0.2.6"]]
 
   :plugins [[jonase/eastwood "0.2.5"]
             [lein-ancient    "0.6.15"]

@@ -22,7 +22,6 @@
      ::ex/default             (wrap-logging ex/safe-handler)}}}
 
   (context "/commands" []
-           (POST "/ping" [& params]
-                 :components [env]
+           (POST "/roll" [& params]
                  :return schemas/Message
-                 (ok (commands/process-ping env params)))))
+                 (ok (commands/process-roll params)))))
