@@ -10,7 +10,8 @@
   :license {:name "The MIT License"
             :url  "https://opensource.org/licenses/MIT"}
 
-  :aliases {"doc" ["do" ["marg" "-f" "index.html"]]
+  :aliases {"deploy" ["do" ["shell" "git" "push" "heroku" "master"]]
+            "doc" ["do" ["marg" "-f" "index.html"]]
             "lint" ["do" ["ancient"] ["kibit"] ["eastwood"]]
             "server" ["do" ["clean"] ["uberjar"] ["shell" "heroku" "local"]]}
 
